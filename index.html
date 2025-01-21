@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Djaafar Lecheheb's official website showcasing UI/UX design and photography projects. Explore innovative web and app designs as well as stunning landscape and event photography."> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-adsense-account" content="ca-pub-8171416342423313">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Djaafar Lecheheb - Photographer & UI/UX Designer  | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon2.png" style="width: 100%; height: 100%;">
+
+    <link rel="canonical" href="https://girisushant.com.np/index.html">
+
+    <meta property="og:site_name" content="Lecheheb Photography">
+    <meta property="og:title" content="Djaafar Lecheheb - UI/UX Designer & Photographer in Nepal">
+    <meta property="og:url" content="https://girisushant.com.np">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Explore the UI/UX design and photography work of Djaafar Lecheheb, featuring innovative digital projects and captivating photography from Nepal.">
+    <meta property="og:image" content="https://girisushant.com.np/img/thumbnail.jpg">
+    <meta property="og:image:width" content="1500">
+    <meta property="og:image:height" content="790">
+
+    <meta itemprop="name" content="Lecheheb | Photography">
+    <meta itemprop="url" content="https://girisushant.com.np">
+    <meta itemprop="description" content="Professional Photography trying to caputure the best moments in life">
+    <meta itemprop="thumbnailUrl" content="https://girisushant.com.np/img/thumbnail.jpg">
+
+    <link rel="image_src" href="https://girisushant.com.np/img/thumbnail.jpg">
+    <meta itemprop="image" content="https://girisushant.com.np/img/thumbnail.jpg">
+    <meta itemprop="image" content="https://girisushant.com.np/img/thumbnail.jpg">
+
+    <meta name="twitter:title" content="Djaafar Lecheheb - UI/UX Designer & Photographer in Nepal">
+    <meta name="twitter:image" content="https://girisushant.com.np/img/thumbnail.jpg">
+    <meta name="twitter:url" content="https://girisushant.com.np">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:description" content="Discover Djaafar Lecheheb's portfolio in UI/UX design and photography, based in Nepal.">
+
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Quantico:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <!-- Google Analytics -->
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8171416342423313"
+        crossorigin="anonymous"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HMFCK8LPZP">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HMFCK8LPZP');
+    </script>
+
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K3FKJR9N');</script>
+    <!-- End Google Tag Manager -->
+     
+    <style>
+
+         /* Existing CSS */
+         #popupbody {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #overlay {
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        #popup {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 10px;
+            position: relative;
+            text-align: center;
+        }
+        
+        #close-button {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            cursor: pointer;
+            font-weight: bold;
+            color: red;
+            background-color: #fff;
+            border-radius: 50%;
+            padding: 5px;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            line-height: 10px;
+            z-index: 1100; /* Ensure the close button is on top */
+        }
+        
+        #video {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            position: relative;
+        }
+        
+        #follow-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #E1306C;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-top: 100px;
+            text-decoration: none;
+            opacity: 0; /* Initially hidden */
+            pointer-events: auto; /* Still clickable */
+            cursor: pointer; /* Show pointer cursor */
+            transition: opacity 0.3s ease;
+        }
+        
+        /* Ensure follow button is clickable even when hidden */
+        #popup:hover #follow-button {
+            opacity: 0; /* Remain hidden on hover */
+            pointer-events: auto; /* Ensure it's still clickable */
+        }
+        
+        body.no-scroll {
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K3FKJR9N" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- Hero Section Begin -->
+     <a href="http://lechehebdjaafar.pythonanywhere.com/index" id="scroll" style="display: none;"><span></span></a>
+
+    <section class="hero-section">
+        <div class="hs-slider owl-carousel">
+            <div class="hs-item set-bg" data-setbg="img/swambhu.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hs-text">
+                                <h2>Lecheheb Photography</h2>
+                                <p>Hello, it’s a pleasure to meet you! My name is Djaafar Lecheheb. I’m from Annaba, Algeria, but I currently live in Ouargla. <br> I’m a passionate developer
+                                     and engineer with a creative approach to technology and innovation. <br /> </p>
+                                <a href="http://lechehebdjaafar.pythonanywhere.com/contact" class="primary-btn">Contact Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hs-item set-bg" data-setbg="img/nepal.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hs-text">
+                                <h2>Lecheheb Photography</h2>
+                                <p>I’m a developer and engineer with a passion for technology and innovation. I craft creative digital solutions and build efficient, user-friendly systems that combine functionality with a modern design aesthetic.</p>
+                                <a href="http://lechehebdjaafar.pythonanywhere.com/index" class="primary-btn">About Me</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Services Section Begin -->
+    <section class="services-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-item">
+                        <img src="img/Elhdjra.jpg" alt="">
+                        <h3>El-Hadjra
+                        </h3>
+                        <p>El-Hadjra is a historic site located in Souk El-Hajar, in the city of Ouargla, Algeria. Renowned for its architectural beauty and cultural significance, this landmark stands as a testament to the region's rich heritage and authenticity. El-Hadjra serves as a vibrant hub, blending tradition with daily life, 
+                            making it a favorite destination for both visitors and locals alike. </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-item">
+                        <img src="img/Passenger station.jpg" alt="">
+                        <h3>Ouargla Central Bus Station</h3>
+                        <p>The Ouargla Central Bus Station is a key transportation hub in the city of Ouargla,
+                             Algeria. Serving as the main gateway for travelers, it connects the entire region
+                             to various destinations across the country. Known for its bustling activity,
+                              the station is a vital part of daily life in Ouargla, 
+                              providing a convenient and efficient travel experience for residents and visitors
+                               alike.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="services-item">
+                        <img src="img/Kasdi.jpg" alt="">
+                        <h3>Kasdi Merbah University</h3>
+                        <p>Kasdi Merbah University, located in Ouargla, Algeria, is a prestigious institution known for its academic excellence and diverse programs. It serves as a cornerstone for higher education in the region, attracting students from across the
+                         country. The university is celebrated for fostering innovation, research, and development, contributing significantly to the intellectual and cultural growth of the area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="section-title">
+                        <h2>Categories</h2>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br /> eiusmod tempor -->
+                        <!-- incididunt ut labore et dolore.</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <!-- <div class="right-btn"><a href="#" class="primary-btn">VIew all</a></div> -->
+                </div>
+            </div>
+            <div class="categories-slider owl-carousel">
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="img/bird.jpeg"></div>
+                    <div class="cs-text">
+                        <h4>Animal</h4>
+                        <!-- <span>120 pictures</span> -->
+                    </div>
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="img/pashupati.jpg"></div>
+                    <div class="cs-text">
+                        <h4>Temple</h4>
+                        <!-- <span>325 pictures</span> -->
+                    </div>
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="img/street3.jpeg"></div>
+                    <div class="cs-text">
+                        <h4>STREET</h4>
+                        <!-- <span>325 pictures</span> -->
+                    </div>
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="img/about1.png"></div>
+                    <div class="cs-text">
+                        <h4>Portrait</h4>
+                        <!-- <span>540 pictures</span> -->
+                    </div>
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="img/monkey.jpeg"></div>
+                    <div class="cs-text">
+                        <h4>Animal</h4>
+                        <!-- <span>120 pictures</span> -->
+                    </div>
+                </div>
+                <div class="cs-item">
+                    <div class="cs-pic set-bg" data-setbg="img/dog.jpg"></div>
+                    <div class="cs-text">
+                        <h4>Animal</h4>
+                        <!-- <span>120 pictures</span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+
+    <!-- Portfolio Section Begin -->
+    <section class="portfolio-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>My Photography</h2>
+                    </div>
+                    <div class="filter-controls">
+                        <ul>
+                            <li class="active" data-filter="*">All</li>
+                            <li data-filter=".culture">Culture</li>
+                            <li data-filter=".portrait">Portrait</li>
+                            <li data-filter=".natural">Natural</li>
+                            <li data-filter=".street">Street</li>
+                            <li data-filter=".temple">Temple</li>
+                            <li data-filter=".holi">Ouargli</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div id="portfolio" class="col-lg-12 p-0">
+                    <div class="portfolio-filter">
+                        <div class="pf-item set-bg holi" data-setbg="img/holi1.jpeg">
+                            <a href="img/holi1.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>Ouargli</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg holi" data-setbg="img/holi2-.jpg">
+                            <a href="img/holi2-.jpg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>Ouargli</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg temple" data-setbg="img/ou.jpeg">
+                            <a href="img/ou.jpeg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>TEMPLE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item height set-bg portrait" data-setbg="img/about1.png">
+                            <a href="img/about1.png" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>PORTRAIT</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item height set-bg culture" data-setbg="img/g32.jpg">
+                            <a href="img/g32.jpg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>PORTRAIT</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+
+                        <div class="pf-item set-bg street" data-setbg="img/chitlang0.jpeg">
+                            <a href="img/chitlang0.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>STREET</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg temple" data-setbg="img/instragram1o.jpeg">
+                            <a href="img/instragram1o.jpeg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>TEMPLE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg nature" data-setbg="img/water.jpeg">
+                            <a href="img/water.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>NATURE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+
+
+                        <div class="pf-item set-bg street" data-setbg="img/chitlango1.jpeg">
+                            <a href="img/chitlango1.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>STREET</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+
+
+                        <div class="pf-item set-bg natural" data-setbg="img/nature2.jpeg">
+                            <a href="img/nature2.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>NATURE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+
+
+                        <div class="pf-item large-width set-bg portrait" data-setbg="img/g3.jpg">
+                            <a href="img/g3.jpg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>PORTRAIT</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg street" data-setbg="img/touristo.jpeg">
+                            <a href="img/touristo.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>STREET</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+
+                        <div class="pf-item set-bg natural" data-setbg="img/kirtipur0.jpeg">
+                            <a href="img/kirtipur0.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>NATURE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg natural" data-setbg="img/plant0.jpeg">
+                            <a href="img/plant0.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>NATURE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+
+                        <div class="pf-item set-bg natural" data-setbg="img/nature3.jpeg">
+                            <a href="img/nature3.jpeg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>NATURE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg culture" data-setbg="img/culture5.jpg">
+                            <a href="img/culture5.jpg" class="pf-icon image-popup"><span class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>CULTURE</h4>
+                                <span>Lecheheb Photography</span>
+                            </div>
+                        </div>
+                        </div>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-more-btn">
+                    <a  id="load-more-btn">Load More</a>
+                </div>
+                <!-- Include SweetAlert CSS and JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.min.css">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+
+<!-- Your JavaScript code -->
+<script>
+  // Wait for the document to be ready
+document.addEventListener("DOMContentLoaded", function () {
+    // Find the "Load More" button by its ID
+    var loadMoreBtn = document.getElementById("load-more-btn");
+
+    // Add a click event listener to the button
+    loadMoreBtn.addEventListener("click", function () {
+        // Display the SweetAlert message
+        Swal.fire({
+            title: 'Explore My Photography!',
+            text: 'Click below to view all my photos on Instagram.',
+            icon: 'info',
+            confirmButtonText: 'OK',
+            showCancelButton: true,
+            cancelButtonText: 'Visit Instagram',
+            customClass: {
+                title: 'swal-title',
+                popup: 'swal-popup',
+                confirmButton: 'swal-confirm-button',
+                cancelButton: 'swal-cancel-button'
+            }
+        }).then((result) => {
+            if (result.dismiss === Swal.DismissReason.cancel) {
+                // Redirect to Instagram if the cancel button is clicked
+                window.open('https://www.instagram.com/ddos_attack_co/', '_blank');
+            }
+        });
+    });
+});
+
+</script>
+                <!-- <div class="back-btn" style="display: none;">
+                    <a class="back-btn">Back</a>
+                </div>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script> -->
+
+    </section>
+    <!-- Portfolio Section End -->
+    <!-- Footer Section Begin -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>About Me</h5>
+                        <p>Hi! I'm Lecheheb, a 22-year-old engineer, web developer, and tech enthusiast. With 5+ years of experience in coding and design, I craft creative and efficient solutions. Join me as I merge innovation with passion!
+                        </p>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Instagram</h5>
+                        <div class="fw-instagram">
+                            <a href="https://www.instagram.com/ddos_attack_co/"><img src="img/about1.png" alt=""
+                                    class="img"> </a>
+                            <a href="https://www.instagram.com/ddos_attack_co/"> <img src="img/holi2-.jpg" alt=""
+                                    class="img"> </a>
+                            <a href="https://www.instagram.com/ddos_attack_co/"> <img src="img/g3.jpg" alt=""
+                                    class="img"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Quick links</h5>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <!-- <li><a href="/about.html">About</a></li> -->
+                            <li><a href="http://lechehebdjaafar.pythonanywhere.com/contact">Contact</a></li>
+                            <li><a href="http://lechehebdjaafar.pythonanywhere.com/index">About</a></li>
+                            <li><a href="#" target="_blank">UI/UX Design</a></li>
+
+                            
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="fs-widget">
+                        <h5>Follow Me</h5>
+                        <!-- <p>Imolor amet consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p> -->
+                        <div class="fa-social">
+                            <a href="https://www.facebook.com/djaafarlecheheb20" class="pr-4" target="_blank"><i
+                                    class="fa fa-facebook "></i></a>
+                            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+                            <a href="https://www.youtube.com/@CodeCraftDL"
+                                class="pr-4" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                            <a href="https://www.instagram.com/ddos_attack_co/?next=%2F" class="pr-4" target="_blank"><i
+                                    class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="copyright-text">
+                        <p>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved |<a
+                                href="http://lechehebdjaafar.pythonanywhere.com/index">Lecheheb
+                                Djaafar</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    
+
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "119229621155083");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+
+    
+    <!-- Search model Begin -->
+    <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch">+</div>
+            <form class="search-mode
+                l-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- popup animation -->
+    <!-- <div id="popupbody">
+        <div id="overlay">
+            <div id="popup"> -->
+                <!-- <span id="close-button">&times;</span> Close button -->
+                <!-- <video id="video" autoplay loop muted>
+                    <source src="img/janasthami.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <a id="follow-button" href="https://www.instagram.com/ddos_attack_co/" target="_blank">Follow</a>
+            </div>
+        </div>
+    </div> -->
+    
+       
+    </div>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const overlay = document.getElementById("overlay");
+            const video = document.getElementById("video");
+            const closeButton = document.getElementById("close-button");
+            const followButton = document.getElementById("follow-button");
+    
+            // Show the overlay on page load and prevent background scrolling
+            overlay.style.display = "flex";
+            document.body.classList.add("no-scroll");
+    
+            // Hide the overlay and allow scrolling when the video ends
+            video.addEventListener("ended", function () {
+                closePopup();
+            });
+    
+            // Close the overlay and allow scrolling when clicking the close button
+            closeButton.addEventListener("click", function () {
+                closePopup();
+            });
+    
+            // Close the overlay and allow scrolling when clicking outside of the popup
+            overlay.addEventListener("click", function (event) {
+                if (event.target === overlay) {
+                    closePopup();
+                }
+            });
+    
+            // Redirect to Instagram when the follow button is clicked
+            followButton.addEventListener("click", function () {
+                window.open("https://www.instagram.com/ddos_attack_co/", "_blank");
+            });
+        });
+    
+        function closePopup() {
+            const overlay = document.getElementById("overlay");
+            overlay.style.display = "none";
+            document.body.classList.remove("no-scroll");
+        }
+    </script>
+    
+    
+    <!-- popup animation end  -->
+
+    <!-- up to top button start -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const scrollButton = document.getElementById("scroll");
+
+            // Show the button when scrolling down
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 200) { // Adjust the scroll threshold as needed
+                    scrollButton.style.display = "block";
+                } else {
+                    scrollButton.style.display = "none";
+                }
+            });
+
+            // Handle button click
+            scrollButton.addEventListener("click", function (event) {
+                event.preventDefault();
+                smoothScrollToBottom();
+                setTimeout(smoothScrollToTop, 600); // Adjust the time delay for the scroll up
+            });
+
+            // Smooth scroll to the bottom
+            function smoothScrollToBottom() {
+                window.scrollTo({
+                    top: document.body.scrollHeight,
+                    behavior: "smooth"
+                });
+            }
+
+            // Smooth scroll to the top
+            function smoothScrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+        });
+    </script>
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
