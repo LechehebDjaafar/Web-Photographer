@@ -72,9 +72,9 @@ This project is licensed under the [MIT License](LICENSE)
 
 ## 📞 Contact
 
-* Website: [your-website.com](http://lechehebdjaafar.pythonanywhere.com/index)
+* Website: [Lecheheb Djaafar](http://lechehebdjaafar.pythonanywhere.com/index)
 * Email: djaafardjaafarlolo@gmail.com
-* Instagram: http://instgram.com/ddos_attack_co
+* Instagram: [!ERROR!](https://instgram.com/ddos_attack_co)
 
 ## 📍 Location
 
