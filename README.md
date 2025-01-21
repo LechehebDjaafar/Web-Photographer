@@ -74,7 +74,7 @@ This project is licensed under the [MIT License](LICENSE)
 
 * Website: [your-website.com](http://lechehebdjaafar.pythonanywhere.com/index)
 * Email: djaafardjaafarlolo@gmail.com
-* Instagram: @ddos_attack_co
+* Instagram: http://instgram.com/ddos_attack_co
 
 ## 📍 Location
 
