@@ -52,9 +52,9 @@ cd web-photographer
 
 Watch the website demonstration on YouTube:
 
-[![Web Photographer Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![Web Photographer Demo](https://img.youtube.com/vi/2s_6xkI7gAo/0.jpg)](https://www.youtube.com/watch?v=2s_6xkI7gAo)
 
-> Note: Replace `YOUR_VIDEO_ID` with your actual YouTube video ID
+
 
 ## 💻 Development
 
